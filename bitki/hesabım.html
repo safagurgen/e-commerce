@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="css/account.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <header>
+            
+            <nav>
+              <!-- nav items -->
+              <ul class="navbar">
+                <li><a href="index.html" class="active">Anasayfa</a></li>
+                <li><a href="bitki.php">Bitki</a></li>
+                <li><a href="aksesuar.php">Aksesuar</a></li>
+                <li><a href="iletişim.html">İletişim</a></li>
+              </ul>
+      
+              <div class="icons">
+                <a href="cart.php" id="cart-icon"><i class="ri-shopping-cart-2-line"></i></a>
+                <a href="register.php"><i class="ri-user-3-line"></i></a>
+                <a href="login.php"><i class="ri-login-box-line"></i></a>
+                <div>|</div>
+                <a href="admin.php"><div class="bx bx-menu-alt-right" id="menu-icon"></div></a>
+              </div>
+            </nav>
+          </header>
+    </header>
+
+    <div class="account-container">
+        <div class="account-box">
+            <h2>My Account</h2>
+            <form action="#">
+                <div class="input-box">
+                    <i class="ri-user-line"></i>
+                    <input type="text" name="username" value="JohnDoe" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <i class="ri-mail-line"></i>
+                    <input type="email" name="email" value="johndoe@example.com" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <i class="ri-lock-line"></i>
+                    <input type="password" name="password" value="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="save-btn">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* Genel stiller */
+
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color:#c1dcdc;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul, ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li, ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a, ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+section {
+    float: left;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex-basis: 30%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    clear: both;
+    background-color: #c1dcdc;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bahçe Market</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Icon'lar sosyal medya , alışveriş ve hesap-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- boxicon Option menü için-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+</head>
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo"><img src="img/bahce.JPG" alt="" /></a>
+        <nav>
+
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Anasayfa</a></li>
+                <li><a href="bitki.php">Bitki</a></li>
+                <li><a href="aksesuar.php">Aksesuar</a></li>
+                <li><a href="iletişim.html">İletişim</a></li>
+            </ul>
+
+            <div class="icons">
+                <a href="cart.php" id="cart-icon"><i class="ri-shopping-cart-2-line"></i></a>
+                <a href="register.php"><i class="ri-user-3-line"></i></a>
+                <a href="login.php"><i class="ri-login-box-line"></i></a>
+                <div>|</div>
+                <a href="admin.php"><div class="bx bx-menu-alt-right" id="menu-icon"></div></a>
+            </div>
+        </nav>
+    </header>
+
+   
+
+
+    <div class="banner">
+
+        <div class="banner-content">
+            <h1>Evinize doğallık katın</h1>
+
+            <div class="banner-stats">
+                <div>
+                    <h6>50+</h6>
+                    <p>Bitki çeşidi</p>
+                </div>
+                <div>
+                    <h6>100+</h6>
+                    <p>Müşteri</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="banner-img">
+            <img src="img/banner2.svg" alt="" />
+        </div>
+    </div>
+
+    
+ 
+    <section class="hakkımızda">
+        <h2>Hakkımızda</h2>
+
+        <div class="hakkımızda-box">
+            <div class="box">
+                <div class="box-img"><img src="img/tree.svg" alt="" /></div>
+                <div>
+                    <h3>Çeşitlilik</h3>
+                    <p>
+                        100'den fazla egzotik bitki türü.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-img"><img src="img/git-box.svg" alt="" /></div>
+                <div>
+                    <h3>Hızlı ve ücretsiz kargo</h3>
+                    <p>
+                        3 gün içerisinde kapıya hızlı ve ücretsiz teslimat.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-img"><img src="img/Telephone.svg" alt="" /></div>
+                <div>
+                    <h3>Bilgilendirme hattı</h3>
+                    <p>
+                        Egzotik bitkiler hakkında bilgi alabileceğiniz telefon hattı.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+    
+    <footer class="">
+        <div class="footer-container">
+            
+            <div class="company-info">
+                <img src="img/bahce.JPG" alt="">
+                <p>Hayalinizdeki doğallığı yakalayın</p>
+                <div class="socials">
+                    <div><i class="ri-facebook-fill"></i></div>
+                    <div><i class="ri-instagram-fill"></i></div>
+                    <div><i class="ri-twitter-fill"></i></div>
+                </div>
+            </div>
+
+            
+            <div class="web-pages">
+                <div>
+                    <h3>Bahçe Market</h3>
+                    <a href="#"><p>Hakkımızda</p></a>
+                    <a href="#"><p>Ürünler</p></a>
+                    <a href="#"><p>Blog</p></a>
+                </div>
+                <div>
+                    <h3>Şirketimiz</h3>
+                    <a href="#"><p>Topluluk</a></p>
+                    <a href="#"><p>Kariyer</a></p>
+                    <a href="#"><p>Hikayemiz</a></p>
+                </div>
+                <div>
+                    <h3>İletişim</h3>
+                    <a href="#"><p>Başlangıç</a></p>
+                    <a href="#"><p>Bitki bakımı</a></p>
+                    <a href="#"><p>Adres</a></p>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">@ 2023 bütün hakları saklıdır</p>
+    </footer>
+
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.getElementById('cart-icon').addEventListener('click', function() {
+            var cartPopup = document.getElementById('cart-popup');
+            cartPopup.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

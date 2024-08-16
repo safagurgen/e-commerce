@@ -1,0 +1,22 @@
+CREATE TABLE odeme (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    urun_ad VARCHAR(100) NOT NULL,
+    fiyat DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ad VARCHAR(50) NOT NULL,
+    soyad VARCHAR(50) NOT NULL,
+    kullanici_ad VARCHAR(50) NOT NULL UNIQUE,
+    mail VARCHAR(100) NOT NULL UNIQUE,
+    sifre VARCHAR(255) NOT NULL
+
+);
+
+CREATE TABLE urunler (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    urun_ad VARCHAR(100) COLLATE utf8_general_ci,
+    aciklama VARCHAR(200) COLLATE utf8_general_ci,
+    fiyat INT(11)
+);
